@@ -1,0 +1,9 @@
+sae and aae graphs  -  contains code to create graphs of SAE and AAE, if desired
+cleaned file looping  -  the beginning of code to loop through files in a folder; not completed because not sure exactly of database schema setup
+getting-units  -  the beginning of code to get units from files; not sure if will be useful
+importing to postgres  -  importing database to postgres. needs to be integrated with other files
+modified module b  -  module b code
+modified module c  -  module c code
+module_a_bins  -  csv file with info about where to get diameters for module a
+module_a_w_diams  -  module a code
+renaming variables  -  code to rename NASA file variables
