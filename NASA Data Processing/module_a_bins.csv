@@ -1,0 +1,36 @@
+Campaign,Nickname,Filename/Instrument,Filename nickname,New File Name,Module,units,Bin Location
+ACTIVATE,ACTIVATE,LAS,LAS,ACTIVATE_LAS_,A,,IN_VAR
+,,SMPS,SMPS,ACTIVATE_SMPS_,A,,Mid points: 
+,,CAS,CAS,ACTIVATE_CAS_,A,micron,IN_VAR
+,,CDP,CDP,ACTIVATE_CDP_,A,micron,IN_VAR
+,,,,,,micron,Bin Upper Diameters (microns):
+CAMP2EX,CAMP2EX,LAS,LAS,CAMP2EX_LAS_,A,nm,OTHER_COMMENTS: Mid-point diameters (in nm) are:
+,,SMPS,SMPS,CAMP2EX_SMPS_,A,nm,Mid-point diameters (in nm) are:
+,,APS,APS,CAMP2EX_APS_,A,nm,OTHER_COMMENTS: Data are processed with respect to mid-point polystyrene-latex-equivalent aerodynamic diameters (assuming spherical particles with a density of 1 g/cm3) and are rebinned to a standard binning scheme. Mid-point diameters (in nm) are:
+DC3,DC3,APS,APS,DC3_APS_,A,,IN_VAR_SHORT
+,,LAS,LAS,DC3_LAS_,A,,IN_VAR_SHORT
+,,SMPS,SMPS,DC3_SMPS_,A,,IN_VAR_SHORT
+,,UHSAS,UHSAS,DC3_UHSAS_,A,,IN_VAR_SHORT
+SEAC4RS,SEAC4RS,APS,APS,SEAC4RS_APS_,A,nm,OTHER_COMMENTS: Mid-point diameters (in nm) are 
+,,LAS,LAS,SEAC4RS_LAS_,A,nm,OTHER_COMMENTS: Mid-point diameters (in nm) are 
+,,SMPS,SMPS,SEAC4RS_SMPS_,A,nm,OTHER_COMMENTS: Mid-point diameters (in nm) are 
+,,UHSAS,UHSAS,SEAC4RS_UHSAS_,A,nm,OTHER_COMMENTS: Mid-point diameters (in nm) are 
+KORUS,KORUS,APS,APS,KORUS_APS_,A,nm,IN_VAR
+,,LAS,LAS,KORUS_LAS_,A,nm,IN_VAR
+,,SMPS,SMPS,KORUS_SMPS_,A,nm,IN_VAR
+,,CPSPD,CPSPD,KORUS_CPSPD_,A,um,IN_VAR
+NAAMES,NAAMES,APS,APS,NAAMES_APS_,A,,
+Access locked?,,CAS,CAS,NAAMES_CAS_,A,,
+,,LAS,LAS,NAAMES_LAS_,A,,
+,,SMPS,SMPS,NAAMES_SMPS_,A,,
+,,UHSAS,UHSAS,NAAMES_UHSAS_,A,,
+,,CDP,CDP,NAAMES_CDP_,A,,
+DISCOVER,DISCOVER,APS,APS,DISCOVER_APS_,A,nm,IN_NAME
+,,CAS,CAS,DISCOVER_CAS_,A,micron,IN_VAR
+,,LAS,LAS,DISCOVER_LAS_,A,nm,IN_VAR
+,,SMPS,SMPS,DISCOVER_SMPS_,A,,OTHER_COMMENTS: Mid-point diameters (in nm) are 
+,,UHSAS,UHSAS,DISCOVER_UHSAS_,A,,IN_NAME
+FIREX,FIREX,LAS,LAS,FIREX_LAS_,A,,OTHER_COMMENTS: Midpoint diameters of Bins 00 to 79 determined by DMA-classified ammonium sulfate calibrations are: 
+,,SMPS,SMPS,FIREX_SMPS_,A,,OTHER_COMMENTS: Midpoint diameters of Bins 00 to 43 are: 
+,,CDP,CDP,FIREX_CDP_,A,um,IN_VAR
+,,CPSPD,CPSPD,FIREX_CPSPD_,A,,IN_VAR
