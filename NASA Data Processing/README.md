@@ -136,4 +136,4 @@ Each step saves an output file that feeds into the next.
 ---
 
 ## Final Note
-By following the above workflow and using the three scripts in sequence, you transform raw campaign files into standardized, merged, and binned datasets ready.
+By following the above workflow and using the three scripts in sequence, you transform raw campaign files into standardized, merged, and binned datasets.
