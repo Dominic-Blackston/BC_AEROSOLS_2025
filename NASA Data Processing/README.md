@@ -5,7 +5,7 @@ Raw Data Merging
 Column Filtering & Renaming
 Bin Consolidation (Binning)
 
-Each step produces an output file that is used as the input for the next step. The following sections explain each script and the overall workflow.
+Each step produces an output file that is used as the input for the next step. You can try it out yourself with the NAAMES(2015) Data. The following sections explain each script and the overall workflow.
 
 ---
 
