@@ -112,14 +112,19 @@ NOTES:
 -Modify wavelength_info files for each campaign. Examples under "wavelength_info_list"
 _______________________________________________________________________________________________________________________________________________________________________________
 
-7) DOE_restricted_comprehensive_filter.ipynb
-DESCRIPTION: 
-OUTPUT: 
+8) DOE_combine_restricted_comprehensive.ipynb
+DESCRIPTION: combines individual restricted, comprehensive campaign files into one DOE campaign file
+OUTPUT: DOE_restricted.csv and DOE_comprehensive.csv
 
-Variables to change: 
-
+Variables to change:
+-DOE_CAMPAIGNS: list of campaign names to combine
+-RESTRICTED_PATH: path of individual campaign_restricted.csvs
+-COMPREHENSIVE_PATH: path of individual campaign_comprehensive.csvs
+-RESTRICTED_COMBINED_PATH: output path for DOE_restricted.csv
+-COMPREHENSIVE_COMBINED_PATH: output path for DOE_comprehensive.csv
 
 NOTES:
+-None
 
 
 
