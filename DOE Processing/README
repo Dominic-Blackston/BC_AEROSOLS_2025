@@ -1,1 +1,136 @@
+This is the main directory to convert raw and individual DOE campaign files into final restricted and comprehensive datasets.
+This directory provides individual code that performs individual tasks (binning, time averaging, unit changing, etc.). 
+
+The sequence of steps that the May Research Group took to combine the DOE campaigns are as follows:
+1) DOE_combiner_raw
+2) DOE_rename_columns
+3) DOE_time_averaging
+4) DOE_unit_change
+5) DOE_binning
+6) DOE_sc_abs_correction
+7) DOE_restricted_comprehensive_filter
+8) DOE_combine_restricted_comprehensive
+
+
+DETAILED STEP-BY-STEP INSTRUCTIONS
+_______________________________________________________________________________________________________________________________________________________________________________
+
+1) DOE_combiner_raw.ipynb
+DESCRIPTION: Combines individual instrument files into one single campaign_csv file.
+OUTPUT: campaign_raw.csv
+
+Variables to change: 
+-CAMPAIGN_NAME: name of campaign you want to combine
+-campaign_path: path to individual instrument campaign files.
+-file_info_path: Path to your file_info_list folder. (More details below.)
+-output_folder: output path where you want to output combined instrument csvs per instrument
+-RAW_CAMPAIGNS_PATH: Final path where you want the final campaign_raw.csv file to be printed
+
+NOTES:
+-file_info_path files are csv files that have information on each instruments filetype, column names, etc. Examples can be seen under "file_info_list" in this github.
+-campaign_path should have individual instrument folders for the campaign. It looks something like this:
+BBOP
+-> instrument1
+    ->instrument1_date1.csv
+    ->instrument1_date2.csv
+    ->....
+->instrument2
+    ->instrument2_date1.txt
+    ->instrument2_date2.txt
+    ->....
+->....
+_______________________________________________________________________________________________________________________________________________________________________________
+
+2) DOE_rename_columns.ipynb
+DESCRIPTION: renames raw column names into comprehensive column names.
+OUTPUT: campaign_renamed.csv
+
+Variables to change: 
+-ORGANIZATION: set organization name
+-CAMPAIGN_NAME_LIST: list of campaign names to rename
+-COLUMN_NAME_LIST_PATH: path to column_name_list files. (More details below.)
+-RAW_PATH: Original path of campaign.csvs you want to rename
+-RENAMED_OUTPUT_PATH: output path to renamed.csv produced
+
+NOTES:
+-column_name_list provides mappings from original column names to new column names. See the "column_name_list" folder for examples. One file for each campaign is expected.
+_______________________________________________________________________________________________________________________________________________________________________________
+
+3) DOE_time_averaging.ipynb
+DESCRIPTION: Time averages campaign.csv files by a column name.
+OUTPUT: campaign_avg.csv
+
+Variables to change: 
+-raw_path: path to original campaign files that you want to time average
+-avg_path: Output folder where final avg.csv files will be printed to
+-time_average_list_path: Path to time_average_list.csv info file.
+
+NOTES:
+-modify time_average_list.csv to set what columns to time average by for each campaign
+_______________________________________________________________________________________________________________________________________________________________________________
+
+4) DOE_unit_change.ipynb
+DESCRIPTION: Changes units of columns for each campaign.
+OUTPUT: campaign.csv, under unit_corrected_data path.
+
+Variables to change: 
+-RAW_PATH: path to original campaign files that you want to unit correct.
+-OUTPUT_PATH: path to output unit changed campaign csvs
+-UNIT_INFO_PATH: path to unit_info_list files for each campaign
+
+NOTES:
+-modify unit_info_list files for each campaign. Examples seen under "unit_info_list"
+_______________________________________________________________________________________________________________________________________________________________________________
+
+5) DOE_binning.ipynb
+DESCRIPTION: bins campaign files into AEROSOL and COMPREHENSIVE bins we desire.
+OUTPUT: campaign_binned.csv
+
+Variables to change: 
+-NEW_AEROSOL_BINS: midpoint diameter bins for aerosol distribution
+-NEW_CLOUD_BINS: midpoint diameter bins for cloud distribution
+-OUTPUT_PATH: output path to produce campaign_binned.csv
+-INPUT_PATH: path to original campaign files that you want to bin
+-BIN_INFO_PATH: path to bin_info files for each campaign
+
+NOTES:
+-modify bin_info files for each campaign. Examples under "bin_info_list"
+_______________________________________________________________________________________________________________________________________________________________________________
+
+6) DOE_sc_abs_correction.ipynb
+DESCRIPTION: Translates Scattering and Absorption wavelengths to desired wavelengths
+OUTPUT: campaign_wavelengthcorrected.csv
+
+Variables to change: 
+-RAW_PATH: path to original campaign files that you want to sc,abs correct
+-OUTPUT_PATH: output path to sc,abs corrected data
+-WAVELENGTH_INFO_PATH: path to wavelength_info files for each campaign
+-SC_NEW_WAVELENGTHS: new scattering wavelengths you want to convert to
+-ABS_NEW_WAVELENGTHS: new absorption wavelengths you want to convert to
+
+NOTES:
+-Modify wavelength_info files for each campaign. Examples under "wavelength_info_list"
+_______________________________________________________________________________________________________________________________________________________________________________
+
+7) DOE_restricted_comprehensive_filter.ipynb
+DESCRIPTION: 
+OUTPUT: 
+
+Variables to change: 
+
+
+NOTES:
+
+
+
+
+
+
+
+
+
+
+
+
+
 
