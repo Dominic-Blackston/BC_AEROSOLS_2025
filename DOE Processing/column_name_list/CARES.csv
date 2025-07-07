@@ -1,0 +1,140 @@
+original,new
+UTC,UTC
+Date,Date
+met_Lat,Latitude
+met_Long,Longitude
+met_Alt,Altitude
+met_Static T,Temperature
+met_RH,Rel_humidity
+met_Static P,Pressure
+,U
+,V
+,W
+,Supersaturation
+,Number_Concentration
+cpc_3025_Conc_(#/cm^3),CNgt3nm
+cpc_3010_Conc_(#/cm^3),CNgt10nm
+sp2_BCmass,BC_Mass
+met_LWC_HWD,LWC
+cas_CAS Bin 1,cbin1
+cas_CAS Bin 2,cbin2
+cas_CAS Bin 3,cbin3
+cas_CAS Bin 4,cbin4
+cas_CAS Bin 5,cbin5
+cas_CAS Bin 6,cbin6
+cas_CAS Bin 7,cbin7
+cas_CAS Bin 8,cbin8
+cas_CAS Bin 9,cbin9
+cas_CAS Bin 10,cbin10
+cas_CAS Bin 11,cbin11
+cas_CAS Bin 12,cbin12
+cas_CAS Bin 13,cbin13
+cas_CAS Bin 14,cbin14
+cas_CAS Bin 15,cbin15
+cas_CAS Bin 16,cbin16
+cas_CAS Bin 17,cbin17
+cas_CAS Bin 18,cbin18
+cas_CAS Bin 19,cbin19
+cas_CAS Bin 20,cbin20
+uhsas_0.061,bin1
+uhsas_0.063,bin2
+uhsas_0.065,bin3
+uhsas_0.067,bin4
+uhsas_0.069,bin5
+uhsas_0.071,bin6
+uhsas_0.073,bin7
+uhsas_0.075,bin8
+uhsas_0.077,bin9
+uhsas_0.079,bin10
+uhsas_0.082,bin11
+uhsas_0.084,bin12
+uhsas_0.087,bin13
+uhsas_0.089,bin14
+uhsas_0.092,bin15
+uhsas_0.095,bin16
+uhsas_0.097,bin17
+uhsas_0.1,bin18
+uhsas_0.103,bin19
+uhsas_0.106,bin20
+uhsas_0.109,bin21
+uhsas_0.113,bin22
+uhsas_0.116,bin23
+uhsas_0.12,bin24
+uhsas_0.123,bin25
+uhsas_0.127,bin26
+uhsas_0.131,bin27
+uhsas_0.134,bin28
+uhsas_0.138,bin29
+uhsas_0.143,bin30
+uhsas_0.147,bin31
+uhsas_0.151,bin32
+uhsas_0.156,bin33
+uhsas_0.16,bin34
+uhsas_0.165,bin35
+uhsas_0.17,bin36
+uhsas_0.175,bin37
+uhsas_0.18,bin38
+uhsas_0.186,bin39
+uhsas_0.191,bin40
+uhsas_0.197,bin41
+uhsas_0.203,bin42
+uhsas_0.209,bin43
+uhsas_0.215,bin44
+uhsas_0.221,bin45
+uhsas_0.228,bin46
+uhsas_0.235,bin47
+uhsas_0.241,bin48
+uhsas_0.249,bin49
+uhsas_0.256,bin50
+uhsas_0.264,bin51
+uhsas_0.272,bin52
+uhsas_0.28,bin53
+uhsas_0.288,bin54
+uhsas_0.296,bin55
+uhsas_0.305,bin56
+uhsas_0.314,bin57
+uhsas_0.324,bin58
+uhsas_0.333,bin59
+uhsas_0.343,bin60
+uhsas_0.353,bin61
+uhsas_0.364,bin62
+uhsas_0.375,bin63
+uhsas_0.386,bin64
+uhsas_0.397,bin65
+uhsas_0.409,bin66
+uhsas_0.421,bin67
+uhsas_0.434,bin68
+uhsas_0.447,bin69
+uhsas_0.46,bin70
+uhsas_0.474,bin71
+uhsas_0.488,bin72
+uhsas_0.502,bin73
+uhsas_0.517,bin74
+uhsas_0.533,bin75
+uhsas_0.548,bin76
+uhsas_0.565,bin77
+uhsas_0.582,bin78
+uhsas_0.599,bin79
+uhsas_0.617,bin80
+uhsas_0.635,bin81
+uhsas_0.654,bin82
+uhsas_0.673,bin83
+uhsas_0.693,bin84
+uhsas_0.714,bin85
+uhsas_0.735,bin86
+uhsas_0.757,bin87
+uhsas_0.78,bin88
+uhsas_0.803,bin89
+uhsas_0.827,bin90
+uhsas_0.851,bin91
+uhsas_0.876,bin92
+uhsas_0.903,bin93
+uhsas_0.929,bin94
+uhsas_0.957,bin95
+uhsas_0.985,bin96
+pass-3_Bsca_Av__B120_s,Sc450_total
+pass-3_Bsca_Av__G120_s,Sc550_total
+pass-3_Bsca_Av__R120_s,Sc700_total
+pass-3_Babs_Av__B120_s,Abs470_total
+pass-3_Babs_Av__G120_s,Abs532_total
+pass-3_Babs_Av__R120_s,Abs660_total
