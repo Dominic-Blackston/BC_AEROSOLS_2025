@@ -112,6 +112,22 @@ NOTES:
 -Modify wavelength_info files for each campaign. Examples under "wavelength_info_list"
 _______________________________________________________________________________________________________________________________________________________________________________
 
+7) DOE_restricted_comprehensive_filter 
+Purpose: Translates raw files into restricted and comprehensive columns only 
+
+Output: campaign_restricted.csv and campaign_comprehensive.csv 
+
+Variables to Configure: 
+RAW_PATH – input path of original campaign.csv files 
+RESTRICTED_OUTPUT_PATH – restricted path 
+COMPREHENSIVE_OUTPUT_PATH – comprehensive path 
+RESTRICTED_COLUMNS – columns for restricted 
+COMPREHENSIVE_COLUMNS – columns for comprehensive 
+
+Notes: 
+No additional configuration required for this step. 
+_______________________________________________________________________________________________________________________________________________________________________________
+
 8) DOE_combine_restricted_comprehensive.ipynb
 DESCRIPTION: combines individual restricted, comprehensive campaign files into one DOE campaign file
 OUTPUT: DOE_restricted.csv and DOE_comprehensive.csv
