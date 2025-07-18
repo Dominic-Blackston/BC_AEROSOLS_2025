@@ -1,0 +1,22 @@
+original,new
+UTC,UTC
+Date,Date
+nav_GGLAT,Latitude
+nav_GGLON,Longitude
+nav_GGALT,Altitude
+nav_ATX,Temperature
+nav_RHUM,Rel_humidity
+nav_PSXC,Pressure
+nav_UIC,U
+nav_VIC,V
+nav_VYC,W
+ccn_SS,Supersaturation
+ccn_N_CCN,Number_Concentration
+sp2_M_rBC_SDI,BC_Mass
+nav_PLWCC,LWC
+pas caps_Scattering_450_STP,Sc450_total
+,Sc550_total
+pas caps_Scattering_660_STP,Sc700_total
+pas caps_Absorption_405_dry_STP,Abs470_total
+,Abs532_total
+pas caps_Absorption_660_dry_STP,Abs660_total

@@ -1,0 +1,7 @@
+Column,ori_wavelength
+Sc450_total,405
+Sc550_total,532
+Sc700_total,781
+Abs470_total,405
+Abs532_total,532
+Abs660_total,781
