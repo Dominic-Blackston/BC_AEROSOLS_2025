@@ -39,3 +39,21 @@ OUTPUT:
 VARIABLES TO CHANGE:
 -NEPH_Bscat_before_data: to path output by STEP1 for Bscat_raw.csv
 -Filter_based_instrument_data: to path output by STEP1 for Babs_raw.csv
+-export_csv: these are three variables. First one path to Output_Module_C_Bscat_CORA.csv. Second to Output_Module_C_Babs_CORA.csv. Third to Output_Module_C_Babs_Bscat_SSA_HANYANG+CORA.csv. Any desired path.
+-datetimedf: path to datime.csv produced by STEP1
+
+4) Run ModuleD.ipynb
+PURPOSE: creates MAC_BC data used for the model
+OUTPUT: Output_Module_D.csv
+VARIABLES TO CHANGE:
+-df_bcmass: path to BC_mass.csv produced by STEP1
+-df_moduleC: path to Output_Module_C_Babs_Bscat_SSA_HANYANG+CORA.csv produced by Module C (STEP 3)
+-datetimedf: path to datetime.csv created by STEP 1
+-final to_csv call: change to desired path for Output_Module_D.csv
+
+5) Run Module_result_combiner.ipynb
+PURPOSE: combines Module A, C, D Output into one file
+OUTPUT: MAC_NASA_DOE_3Bins_weather_originalbins.csv
+VARIABLES TO CHANGE:
+-MODULE_A_PATH, MODULE_C_PATH, MODULE_D_PATH, ORGANIZATION_CAMPAIGN_PATH: change to paths from Module A, C, D outputs as well as master_restricted_datetimefixed.csv (this one is obtained in STEP 1) respectively
+-final .to_csv call: change path to desired output path for MAC_NASA_DOE_3Bins_weather_originalbins.csv
