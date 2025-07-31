@@ -2,6 +2,8 @@ Implements the data splitting methods found in: https://buckeyemailosu.sharepoin
 
 Steps to run:
 
+All code to run is in create_data_split.ipynb
+
 IN STEP 0:
 -change paths for variables: dataset_path, output_path, kfold_info_path, campaign_based_info_path, day_based_info_path
 -all info paths point to info.csvs. Examples found in the info_list in this folder.
