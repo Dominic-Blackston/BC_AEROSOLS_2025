@@ -57,3 +57,8 @@ OUTPUT: MAC_NASA_DOE_3Bins_weather_originalbins.csv
 VARIABLES TO CHANGE:
 -MODULE_A_PATH, MODULE_C_PATH, MODULE_D_PATH, ORGANIZATION_CAMPAIGN_PATH: change to paths from Module A, C, D outputs as well as master_restricted_datetimefixed.csv (this one is obtained in STEP 1) respectively
 -final .to_csv call: change path to desired output path for MAC_NASA_DOE_3Bins_weather_originalbins.csv
+
+
+
+NOTE on ModuleC Zenodo vs ModuleC CORA. Both these files produce the same output for bscat but differing outputs for babs. This results in different SSA, AAE, babs_870, MAC_bc values when running Module C and D.
+
